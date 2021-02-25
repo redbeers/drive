@@ -1,0 +1,9 @@
+create user python identified by python;
+grant connect,resource to python;
+
+grant dba to python;
+alter user python default role all;
+grant create table to python;
+grant unlimited tablespace to python;
+grant create session to python;
+grant create view to python;
